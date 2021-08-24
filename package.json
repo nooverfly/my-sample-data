@@ -1,0 +1,20 @@
+{
+  "name": "my-sample-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nooverfly/my-sample-data.git",
+  "author": "吴胜飞 <qihao.wu@tuya.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "scripts": {
+    "build": "echo 0",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  }
+}
